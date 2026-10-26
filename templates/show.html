@@ -21,7 +21,7 @@ Ut esse natus blanditiis quibusdam consectetur ullam consequatur odio, tenetur q
   <th>email</th>
   <th>subject</th>
   <th>message</th>
-
+  <th>action</th>
 
 </tr>
 
@@ -34,7 +34,13 @@ Ut esse natus blanditiis quibusdam consectetur ullam consequatur odio, tenetur q
     <td>{{x.email}}</td>
     <td>{{x.subject}}</td>
     <td>{{x.message}}</td>
+     <td>
 
+        <a href=" /edit/{{x.id}}" class="btn btn-secondary">edit</a>
+        <a href="/delete/{{x.id}}" class="btn btn-danger">delete</a>
+
+
+     </td>
 
 
 </tr>
